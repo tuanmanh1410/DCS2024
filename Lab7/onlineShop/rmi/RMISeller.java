@@ -83,9 +83,9 @@ public class RMISeller extends JFrame {
         RMISeller's init method
          */
         super("Online Shop (Seller ver)");
-        if(System.getSecurityManager()==null) {
-            System.setSecurityManager(new SecurityManager());
-        }
+//        if(System.getSecurityManager()==null) {
+//            System.setSecurityManager(new SecurityManager());
+//        }
 
         Shop i = (Shop)Naming.lookup("rmi://localhost:1099/TestShop");
         Bank b = (Bank) Naming.lookup("rmi://localhost:1099/TestBank");

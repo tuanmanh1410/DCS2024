@@ -2,7 +2,7 @@ package rmi;
 
 import java.util.ArrayList;
 
-class Account implements java.io.Serializable{
+public class Account implements java.io.Serializable{
     /*
     Account class is define account's information to structure.
     accName = account ID

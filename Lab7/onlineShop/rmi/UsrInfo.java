@@ -2,7 +2,7 @@ package rmi;
 
 import java.util.ArrayList;
 
-class UsrInfo implements java.io.Serializable{
+public class UsrInfo implements java.io.Serializable{
     /*
     UsrInfo class is define user's information to structure.
     usrName = user ID in ShopServer

@@ -81,9 +81,9 @@ public class RMIClient extends JFrame {
         RMIClient's init method
          */
         super("Online Shop (Only Customer)");
-        if(System.getSecurityManager()==null) {
-            System.setSecurityManager(new SecurityManager());
-        }
+//        if(System.getSecurityManager()==null) {
+//            System.setSecurityManager(new SecurityManager());
+//        }
         Shop i = (Shop)Naming.lookup("rmi://localhost:1099/TestShop");
         Bank b = (Bank) Naming.lookup("rmi://localhost:1099/TestBank");
 

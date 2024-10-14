@@ -3,7 +3,7 @@ package rmi;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 
-class TransInfo implements java.io.Serializable{
+public class TransInfo implements java.io.Serializable{
     /*
     TransInfo class is define bank account's transfer record.
     sendAccName = send money account name

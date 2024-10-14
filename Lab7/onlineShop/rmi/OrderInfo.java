@@ -1,6 +1,6 @@
 package rmi;
 
-class OrderInfo implements java.io.Serializable{
+public class OrderInfo implements java.io.Serializable{
     /*
     OrderInfo class is define order's information to structure.
     orderCount = manage orderID not overlapping each other
